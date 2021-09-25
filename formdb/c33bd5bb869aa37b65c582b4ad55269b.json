@@ -1,0 +1,517 @@
+[
+    {
+        "wid": "38776",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "你的学生类别？",
+        "description": "",
+        "minLength": 20,
+        "sort": "1",
+        "maxLength": 40,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field001",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79749",
+                "content": "硕士研究生",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79750",
+                "content": "其他",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38777",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "你属于下列哪个校区学生?",
+        "description": "",
+        "minLength": 20,
+        "sort": "2",
+        "maxLength": 60,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field002",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79751",
+                "content": "开发区校区",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79752",
+                "content": "市内校区",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38778",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "你目前是否在校？",
+        "description": "",
+        "minLength": 20,
+        "sort": "3",
+        "maxLength": 60,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field003",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79753",
+                "content": "已返校（本人现在学校）",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79754",
+                "content": "不返校（因参加实习、实训、见习等）",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "79755",
+                "content": "应返校但因事因病暂未返校（已向辅导员请假）",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "79756",
+                "content": "其他",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38779",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "你目前的居住地区是否为疫情中高风险地区？",
+        "description": "",
+        "minLength": 20,
+        "sort": "4",
+        "maxLength": 60,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field004",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79757",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79758",
+                "content": "是，现为中风险地区",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "79759",
+                "content": "是，现为高风险地区",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38780",
+        "formWid": "2275",
+        "fieldType": 1,
+        "title": "你目前是否有疑似/确诊新冠肺炎？",
+        "description": "",
+        "minLength": 20,
+        "sort": "5",
+        "maxLength": 60,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field005",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79760",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79761",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38781",
+        "formWid": "2275",
+        "fieldType": 1,
+        "title": "你目前是否有发热、咳嗽等症状?",
+        "description": "",
+        "minLength": 20,
+        "sort": "6",
+        "maxLength": 60,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79762",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79763",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38782",
+        "formWid": "2275",
+        "fieldType": 1,
+        "title": "你目前是否已就诊或正在住院?",
+        "description": "",
+        "minLength": 20,
+        "sort": "7",
+        "maxLength": 200,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79764",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79765",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38783",
+        "formWid": "2275",
+        "fieldType": 1,
+        "title": "如果已就诊或正在住院，请填写医院名称（未就诊、住院的不填）",
+        "description": "",
+        "minLength": 20,
+        "sort": "8",
+        "maxLength": 200,
+        "isRequired": 0,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": []
+    },
+    {
+        "wid": "38784",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "你目前是否被隔离？",
+        "description": "",
+        "minLength": 20,
+        "sort": "9",
+        "maxLength": 200,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79766",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79767",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38785",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "如果你目前被隔离，请选择你的隔离方式（未被隔离的不填）",
+        "description": "",
+        "minLength": 20,
+        "sort": "10",
+        "maxLength": 200,
+        "isRequired": 0,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79768",
+                "content": "居家隔离",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "79769",
+                "content": "集中隔离",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "79770",
+                "content": "校内单独隔离",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38786",
+        "formWid": "2275",
+        "fieldType": 1,
+        "title": "如果你目前被隔离，请填写目前被隔离的详细地址（未被隔离的不填）",
+        "description": "",
+        "minLength": 20,
+        "sort": "11",
+        "maxLength": 200,
+        "isRequired": 0,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": []
+    },
+    {
+        "wid": "38787",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "近1个月是否去过重点疫区或接触过重点疫区人士？",
+        "description": "",
+        "minLength": 20,
+        "sort": "12",
+        "maxLength": 200,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79771",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79772",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38788",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "近1个月是否接触过确诊病例？",
+        "description": "",
+        "minLength": 20,
+        "sort": "13",
+        "maxLength": 200,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79773",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79774",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38789",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "你今天的体温是多少？",
+        "description": "",
+        "minLength": 20,
+        "sort": "14",
+        "maxLength": 200,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79777",
+                "content": "36~37.2℃",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79778",
+                "content": "37.3~37.9℃",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            },
+            {
+                "itemWid": "79779",
+                "content": "38℃及以上",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    },
+    {
+        "wid": "38790",
+        "formWid": "2275",
+        "fieldType": 2,
+        "title": "本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处 (必填)",
+        "description": "",
+        "minLength": 20,
+        "sort": "15",
+        "maxLength": 200,
+        "isRequired": 1,
+        "imageCount": null,
+        "hasOtherItems": 0,
+        "colName": "field006",
+        "value": "",
+        "minValue": 0.0,
+        "maxValue": 0.0,
+        "isDecimal": true,
+        "fieldItems": [
+            {
+                "itemWid": "79780",
+                "content": "是",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": 1
+            },
+            {
+                "itemWid": "79781",
+                "content": "否",
+                "isOtherItems": 0,
+                "contendExtend": null,
+                "isSelected": null
+            }
+        ]
+    }
+]
