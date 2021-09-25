@@ -159,7 +159,7 @@
     {
         "wid": "38780",
         "formWid": "2275",
-        "fieldType": 1,
+        "fieldType": 2,
         "title": "你目前是否有疑似/确诊新冠肺炎？",
         "description": "",
         "minLength": 20,
@@ -193,7 +193,7 @@
     {
         "wid": "38781",
         "formWid": "2275",
-        "fieldType": 1,
+        "fieldType": 2,
         "title": "你目前是否有发热、咳嗽等症状?",
         "description": "",
         "minLength": 20,
@@ -227,7 +227,7 @@
     {
         "wid": "38782",
         "formWid": "2275",
-        "fieldType": 1,
+        "fieldType": 2,
         "title": "你目前是否已就诊或正在住院?",
         "description": "",
         "minLength": 20,
