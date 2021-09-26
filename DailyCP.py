@@ -292,6 +292,10 @@ if __name__ == "__main__":
         print("python3 DailyCp.py 学校全名 学号 密码 定位地址 formdb文件夹绝对路径")
         exit()
     app = DailyCP(sys.argv[1])
+    if not app.login(sys.argv[2], sys.argv[3]):
+        exit()
+    app.autoComplete(sys.argv[4], sys.argv[5])
+
 
 
 # Author:HuangXu,FengXinYang,ZhouYuYang.
