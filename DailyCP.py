@@ -264,7 +264,7 @@ class DailyCP:
                     for item in newForm:
                         l = find(form, [['title', item['title']], [
                                  'description', item['description']]])
-                        item['value'] = ['value']
+                        item['value'] = l['value']
                         for fieldItemsList in item['fieldItems']:
                             field = find(l['fieldItems'], [
                                 ['content', fieldItemsList['content']]])
@@ -295,8 +295,6 @@ if __name__ == "__main__":
     if not app.login(sys.argv[2], sys.argv[3]):
         exit()
     app.autoComplete(sys.argv[4], sys.argv[5])
-
-
 
 # Author:HuangXu,FengXinYang,ZhouYuYang.
 # By:AUST HACKER
